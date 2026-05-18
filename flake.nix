@@ -20,6 +20,8 @@
           mkCursor = pkgs.callPackage ./packages/mkCursor.nix {};
           cursorNames = [
             "miyabi_blz"
+            "chisa_blz"
+            "miku_blz"
           ];
 
           cursorSet = lib.genAttrs cursorNames (name: mkCursor { inherit name; });
