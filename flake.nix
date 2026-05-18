@@ -15,9 +15,24 @@
         "x86_64-linux"
       ];
 
-      perSystem = { pkgs, self', ... }: {
-        packages.default = self'.packages.miyabi;
-        packages.miyabi = ( pkgs.callPackage ./packages/miyabi.nix {  } );
-      };
+      perSystem = { pkgs, lib, self', ... }:
+        let
+          mkCursor = pkgs.callPackage ./packages/mkCursor.nix {};
+          cursorNames = [
+            "miyabi_blz"
+          ];
+
+          cursorSet = lib.genAttrs cursorNames (name: mkCursor { inherit name; });
+        in
+        {
+          packages = cursorSet // {
+            all = pkgs.symlinkJoin {
+              name = "anicursors-all";
+              paths = builtins.attrValues cursorSet;
+            };
+
+            default = self'.packages.all;
+          };
+        };
     };
 }
