@@ -22,6 +22,7 @@
             "miyabi_blz"
             "chisa_blz"
             "miku_blz"
+            "acheron_blz"
           ];
 
           cursorSet = lib.genAttrs cursorNames (name: mkCursor { inherit name; });
