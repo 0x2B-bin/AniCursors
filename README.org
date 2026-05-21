@@ -27,5 +27,27 @@ environment.systemPackages = [
 
 ** Cursors
 Here is a gallery of the available cursors
-| acheron_blz <br> [[file:./Assets/acheron_blz.gif]] | chisa_blz <br> [[file:./Assets/chisa_blz.gif]]   |
-| miku_blz <br> [[file:./Assets/miku_blz.gif]]       | miyabi_blz <br> file:./Assets/miyabi_blz.gif |
+#+begin_export html
+<table>
+  <tr>
+    <td align="center">
+      <b>acheron_blz</b><br>
+      <img src="./Assets/acheron_blz.gif" width="350">
+    </td>
+    <td align="center">
+      <b>chisa_blz</b><br>
+      <img src="./Assets/chisa_blz.gif" width="350">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>miku_blz</b><br>
+      <img src="./Assets/miku_blz.gif" width="350">
+    </td>
+    <td align="center">
+      <b>miyabi_blz</b><br>
+      <img src="./Assets/miyabi_blz.gif" width="350">
+    </td>
+  </tr>
+</table
+#+end_export

@@ -1,20 +1,20 @@
 
 # Table of Contents
 
-1.  [AniCursors](#orgc95d05d)
-    1.  [Installation](#org39d6b02)
-    2.  [Cursors](#orgc2dd289)
+1.  [AniCursors](#org373d0f2)
+    1.  [Installation](#orgb286d0e)
+    2.  [Cursors](#orgb918724)
 
 
 
-<a id="orgc95d05d"></a>
+<a id="org373d0f2"></a>
 
 # AniCursors
 
 This is a nix flake that provides that provides a collection of anime cursors for NixOS
 
 
-<a id="org39d6b02"></a>
+<a id="orgb286d0e"></a>
 
 ## Installation
 
@@ -37,30 +37,32 @@ Then add the cursor you want into environment.systemPackages like so
     ];
 
 
-<a id="orgc2dd289"></a>
+<a id="orgb918724"></a>
 
 ## Cursors
 
 Here is a gallery of the available cursors
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-
-
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="org-left">acheron<sub>blz</sub> &lt;br&gt; <img src="./Assets/acheron_blz.gif" alt="acheron_blz.gif" /></td>
-<td class="org-left">chisa<sub>blz</sub> &lt;br&gt; <img src="./Assets/chisa_blz.gif" alt="chisa_blz.gif" /></td>
-</tr>
-
-<tr>
-<td class="org-left">miku<sub>blz</sub> &lt;br&gt; <img src="./Assets/miku_blz.gif" alt="miku_blz.gif" /></td>
-<td class="org-left">miyabi<sub>blz</sub> &lt;br&gt; <img src="./Assets/miyabi_blz.gif" alt="miyabi_blz.gif" /></td>
-</tr>
-</tbody>
-</table>
+<table>
+  <tr>
+    <td align="center">
+      <b>acheron_blz</b><br>
+      <img src="./Assets/acheron_blz.gif" width="350">
+    </td>
+    <td align="center">
+      <b>chisa_blz</b><br>
+      <img src="./Assets/chisa_blz.gif" width="350">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>miku_blz</b><br>
+      <img src="./Assets/miku_blz.gif" width="350">
+    </td>
+    <td align="center">
+      <b>miyabi_blz</b><br>
+      <img src="./Assets/miyabi_blz.gif" width="350">
+    </td>
+  </tr>
+</table
 
