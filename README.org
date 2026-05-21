@@ -31,21 +31,21 @@ Here is a gallery of the available cursors
 <table>
   <tr>
     <td align="center">
-      <b>acheron_blz</b><br>
+      <b>acheron_blz</b><br><br>
       <img src="./Assets/acheron_blz.gif" width="350">
     </td>
     <td align="center">
-      <b>chisa_blz</b><br>
+      <b>chisa_blz</b><br><br>
       <img src="./Assets/chisa_blz.gif" width="350">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <b>miku_blz</b><br>
+      <b>miku_blz</b><br><br>
       <img src="./Assets/miku_blz.gif" width="350">
     </td>
     <td align="center">
-      <b>miyabi_blz</b><br>
+      <b>miyabi_blz</b><br><br>
       <img src="./Assets/miyabi_blz.gif" width="350">
     </td>
   </tr>
