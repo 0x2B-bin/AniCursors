@@ -53,10 +53,33 @@ Here is a gallery of the available cursors
       <img src="./Assets/acheron_blz.gif" width="350">
     </td>
     <td align="center">
+      <b>amiya_blz (@BLZ)</b><br><br>
+      <img src="./Assets/amiya_blz.gif" width="350">
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
       <b>chisa_blz (@BLZ)</b><br><br>
       <img src="./Assets/chisa_blz.gif" width="350">
     </td>
+    <td align="center">
+      <b>evernight_blz (@BLZ)</b><br><br>
+      <img src="./Assets/evernight_blz.gif" width="350">
+    </td>
   </tr>
+
+  <tr>
+    <td align="center">
+      <b>kurumi_blz (@BLZ)</b><br><br>
+      <img src="./Assets/kurumi_blz.gif" width="350">
+    </td>
+    <td align="center">
+      <b>lupa_blz (@BLZ)</b><br><br>
+      <img src="./Assets/lupa_blz.gif" width="350">
+    </td>
+  </tr>
+
   <tr>
     <td align="center">
       <b>miku_blz (@BLZ)</b><br><br>
@@ -67,5 +90,16 @@ Here is a gallery of the available cursors
       <img src="./Assets/miyabi_blz.gif" width="350">
     </td>
   </tr>
-</table
+
+  <tr>
+    <td align="center">
+      <b>silver_wolf_blz (@BLZ)</b><br><br>
+      <img src="./Assets/silver_wolf_blz.gif" width="350">
+    </td>
+    <td align="center">
+      <b>yuzuha_blz (@BLZ)</b><br><br>
+      <img src="./Assets/yuzuha_blz.gif" width="350">
+    </td>
+  </tr>
+</table>
 

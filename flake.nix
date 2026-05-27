@@ -23,6 +23,12 @@
             "chisa_blz"
             "miku_blz"
             "acheron_blz"
+            "kurumi_blz"
+            "silver_wolf_blz"
+            "amiya_blz"
+            "yuzuha_blz"
+            "evernight_blz"
+            "lupa_blz"
           ];
 
           cursorSet = lib.genAttrs cursorNames (name: mkCursor { inherit name; });
