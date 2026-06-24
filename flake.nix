@@ -18,18 +18,7 @@
       perSystem = { pkgs, lib, self', ... }:
         let
           mkCursor = pkgs.callPackage ./packages/mkCursor.nix {};
-          cursorNames = [
-            "miyabi_blz"
-            "chisa_blz"
-            "miku_blz"
-            "acheron_blz"
-            "kurumi_blz"
-            "silver_wolf_blz"
-            "amiya_blz"
-            "yuzuha_blz"
-            "evernight_blz"
-            "lupa_blz"
-          ];
+          cursorNames = builtins.attrNames (builtins.readDir ./src);
 
           cursorSet = lib.genAttrs cursorNames (name: mkCursor { inherit name; });
         in
